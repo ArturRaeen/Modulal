@@ -5,7 +5,7 @@ html {
 
 body {
   line-height: 1.7;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 1.1rem;
   color: rgb(152, 152, 152);
 }
@@ -448,6 +448,7 @@ h5,
   font-weight: 900;
   font-size: 1.3rem;
   text-transform: uppercase;
+  margin-right: 15%;
 }
 
 .site-logo a {
@@ -479,10 +480,6 @@ h5,
 
 .site-navbar .site-navigation.border-bottom {
   border-bottom: 1px solid #f3f3f4 !important;
-}
-
-.site-navbar .site-navigation .site-menu {
-  margin-bottom: 0;
 }
 
 .site-navbar .site-navigation .site-menu .active {
@@ -1238,7 +1235,7 @@ h5,
 .days li {
   text-align: center;
   display: inline-block;
-  width: 20%;
+  width: 30%;
 }
 
 .days li a {
@@ -1253,7 +1250,7 @@ h5,
   color: #fff;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 620px) {
   .days .days {
     display: block;
   }
@@ -1344,6 +1341,7 @@ h5,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  font-weight: 600;
 }
 
 .footer-section .footer-links li {
@@ -2183,4 +2181,18 @@ body {
   font-weight: 250;
   font-size: 1.4rem;
   color: rgb(152, 152, 152);
+}
+
+.site-section .container  {
+  width: 70%;
+}
+
+.mla-auto {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.site-navigation {
+  margin-right: 10%;
 }
