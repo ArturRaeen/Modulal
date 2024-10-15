@@ -448,6 +448,7 @@ h5,
   font-weight: 900;
   font-size: 1.6rem;
   text-transform: uppercase;
+  margin-right: 15%;
 }
 
 .site-logo a {
@@ -2136,12 +2137,17 @@ body {
 }
 
 .site-section .container  {
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 70%;
+>>>>>>> e2673071af418e75a43e04173c47262bff7809e9
 }
 
 .mla-auto {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   flex-direction:row;
   width: 100%;
   justify-content: flex-end;
@@ -2320,3 +2326,11 @@ body {
 
 
 
+=======
+  width: 100%;
+}
+
+.site-navigation {
+  margin-right: 10%;
+}
+>>>>>>> e2673071af418e75a43e04173c47262bff7809e9
