@@ -98,7 +98,7 @@ function throwRequest(event) {
     square: square,
   };
 
-  const url = "http://95.163.241.28:5001/message/new";
+  const url = "http://194.58.109.164:5001/message/new";
   const params = {
     headers: {
       "content-type": "application/json; charset=UTF-8",
